@@ -1,0 +1,95 @@
+
+h1 {
+    font-size: 36px;
+    font-family: 'Tahoma';
+
+
+}
+
+h2 {
+    font-size: 24px;
+    font-family: "Trebuchet MS";
+
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "Baskerville";
+
+}
+
+h4 {
+    font-size: 14px;
+    font-family: "Arial";
+}
+
+h5 {
+    font-size: 14px;
+    font-family: "Arial";
+}
+
+h6{
+    font-size: 12px;
+    font-family: "Arial";
+}
+
+p {
+    font-family: "Arial";
+    color: black;
+    font-size: 14px;
+
+}
+
+body {
+
+    font-family: Arial;
+    font-size: 14px;
+    color: #333;
+
+}
+
+a:link {
+    color: #364B7A;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #699E9A;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #635593;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: #699E9A;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+nav {
+
+
+    font-family: Arial;
+    font-size: 14px;
+    color: #7889AB;
+
+}
+
+
+
+footer {
+    background-color: gray;
+
+}
