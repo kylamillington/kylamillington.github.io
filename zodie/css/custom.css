@@ -1,73 +1,87 @@
+body, html {
+    height: 50%;
+}
 
-.h1 {
+.bg {
+    /* The image used */
+    background-image: url("headerimage.jpg");
+
+    /* Full height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+h1 {
     font-size: 36px;
     font-family: 'Tahoma';
 
 
 }
 
-.h2 {
+h2 {
     font-size: 24px;
     font-family: "Trebuchet MS";
 
 }
 
-.h3 {
+h3 {
     font-size: 18px;
     font-family: "Baskerville";
 
 }
 
-.h4 {
+h4 {
     font-size: 14px;
     font-family: "Arial";
 }
 
-.h5 {
+h5 {
     font-size: 14px;
     font-family: "Arial";
 }
 
-.h6{
+h6{
     font-size: 12px;
     font-family: "Arial";
 }
 
-.p {
+p {
     font-family: "Arial";
     color: black;
     font-size: 14px;
 
 }
 
-.body {
 
-    font-family: Arial;
-    font-size: 14px;
-    color: #333;
 
-}
-
-.a:link {
+a:link {
     color: #364B7A;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: #699E9A;
+    color: #364B7A;;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: #635593;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:active {
-    color: #699E9A;
+    color: #364B7A;;
     background-color: transparent;
     text-decoration: none;
 }
@@ -82,22 +96,16 @@ a:active {
 }
 
 
-#featurette-divider {
-    background-color: #245668;
-
-}
-
-
-
 nav {
-
-
+    color: #007bff;
 }
+
 
 
 
 footer {
-    background-color: black;
+   background-color: #897DAD;
+    color: black;
 
 
 }
@@ -114,4 +122,3 @@ buttons {
 social icons {
 
 
-}
