@@ -1,117 +1,135 @@
 
-.h1 {
-    font-size: 36px;
-    font-family: 'Tahoma';
 
-
+body, html {
+    height: 100%;
+    margin: 0;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
 }
 
-.h2 {
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 220px;
+    right: 680px;
+    left: 100px;
+    color: #699E9A;
+    border-radius: 10%;
+    background-color: #245668;
+
+    padding-left: 600px;
+    padding-right: 290px;
+    padding-bottom: 140px;
+    padding-top: 140px;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/constellations.jpg");
+
+    /* Set a specific height */
+    min-height: 850px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    color: #007bff;
     font-size: 24px;
-    font-family: "Trebuchet MS";
+    font-family: 'Handlee', cursive;
 
 }
 
-.h3 {
+footer {
+    font-size: 14px;
+    font-family: 'Handlee', cursive;
+}
+
+
+
+h1 {
+    font-size: 42px;
+    font-family: 'Courgette', cursive;
+
+
+}
+
+h2 {
+    font-size: 34px;
+    font-family:'Fondamento', cursive;
+
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Merienda', cursive;
+
+}
+
+h4 {
+    font-size: 24px;
+    font-family: 'Handlee', cursive;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: "Arial";
+}
+
+h6{
     font-size: 18px;
-    font-family: "Baskerville";
-
-}
-
-.h4 {
-    font-size: 14px;
     font-family: "Arial";
 }
 
-.h5 {
-    font-size: 14px;
-    font-family: "Arial";
-}
-
-.h6{
-    font-size: 12px;
-    font-family: "Arial";
-}
-
-.p {
+p {
     font-family: "Arial";
     color: black;
-    font-size: 14px;
+    font-size: 18px;
 
 }
 
-.body {
 
-    font-family: Arial;
-    font-size: 14px;
-    color: #333;
-
-}
-
-.a:link {
+a:link {
     color: #364B7A;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: #699E9A;
+    color: #364B7A;;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: #635593;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:active {
-    color: #699E9A;
+    color: #364B7A;;
     background-color: transparent;
     text-decoration: none;
 }
 
-
-
-.blockquote  {
-
-    background-color: #364B7A;
-    margin: 40px;
-
+img {
+    max-width:100%;
+    height:auto;
 }
 
 
-#featurette-divider {
-    background-color: #245668;
-
+.container1 {
+    background-color: #007bff;
 }
-
-
-
-nav {
-
-
-}
-
-
 
 footer {
-    background-color: black;
-
-
-}
-
-
-
-buttons {
-
-
-}
-
-
-
-social icons {
-
 
 }
