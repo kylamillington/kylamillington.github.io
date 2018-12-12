@@ -8,21 +8,53 @@
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Courgette|Fondamento|Handlee|Merienda" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <link rel="stylesheet" type="text/css" href="css/imageforum.css"/>
-
+<link rel="stylesheet" type="text/css" href="css/register.css"/>
+<link rel="stylesheet" type="text/css" href="css/login.css"/>
+<title>Zodie</title>
 <head>
 
 </head>
+
+<script>
+
+
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
+
+
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+
+</script>
+
 <body>
 
 
 
 <!--Navigation Starts Here-->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg shadow rounded ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10"
+            aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -33,30 +65,35 @@
     <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link disabled" href="#">Home<span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true"
+                <a class="nav-link dropdown-toggle" href="https://kylamillington.github.io/zodie/about" id="dropdown10" data-toggle="dropdown" aria-haspopup="true"
                    aria-expanded="false">About</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown10">
-                    <a class="dropdown-item" href="#">Success Stories</a>
+                    <a class="dropdown-item" href="https://kylamillington.github.io/zodie/successstories">Success Stories</a>
                     <a class="dropdown-item" href="#">How It Works</a>
                 </div>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Profile</a>
+                <a class="nav-link" href="https://kylamillington.github.io/zodie/profile">Profile</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Matches</a>
+                <a class="nav-link" href="#">Matches</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true"
-                   aria-expanded="false">Settings</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown10">
-                    <a class="dropdown-item" href="#">Contact</a>
-                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="https://kylamillington.github.io/zodie/contact">Contact</a>
+            </li>
+
+
+            <li class="nav-item"  style="float: right;>
+                <form action="/action_page.php" ">
+                    <input type="text" placeholder="Username" name="username">
+                    <input type="text" placeholder="Password" name="psw">
+                    <button type="submit">Login</button>
+                </form>
             </li>
         </ul>
     </div>
@@ -77,23 +114,81 @@
 
 
 <div class="container">
-    <div class="text-block shadow-lg p-3 mb-5 rounded rounded">
-        <h2 style="">Sign In</h2>
+    <div class="text-block shadow-lg p-3 mb-5 rounded .d-sm-flex .d-md-flex .d-lg-flex">
+        <h1 style="margin-top: 40px">Zodie</h1>
+        <p>Sign in or Register</p>
+        <button2 onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button2>
 
-        <form>
-            <div class="form-group fade show active">
-                <label for="exampleInputEmail1">Username or Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                       placeholder="Enter email">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        <p style="margin-top: 10px; margin-bottom: 10px;">Or</p>
+
+        <button2 onclick="document.getElementById('id02').style.display='block'">Sign Up</button2>
+
+
+
+
+        <div id="id01" class="modal">
+
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+        </div>
+
         </div>
     </div>
+</div>
+
+
+
+
+<div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" action="/action_page.php">
+        <div class="container">
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+            <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+        </div>
+    </form>
 </div>
 
 
