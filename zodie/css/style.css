@@ -144,17 +144,19 @@ p {
 
 }
 
-.col-sm-5 {
-
-
-
+script {
+    padding: 100px;
 
 }
+
 
 .col-sm-7{
     background-color: #99CCCC;
     opacity: 30%;
-    padding: 60px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 
