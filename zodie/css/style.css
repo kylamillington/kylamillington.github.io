@@ -64,24 +64,9 @@ body, html {
 nav {
     background-color: #383d41;
     font-size: 24px;
-    /*color: #7889AB;*/
     font-family: 'Handlee', cursive;
-
 }
 
-.navbar{
-
-}
-
-.nav-link {
-
-
-}
-
-
-.nav-item {
-    /*color: white;*/
-}
 
 .dropdown-item {
     height: 60px;
@@ -141,11 +126,6 @@ p {
     font-family: "Arial";
     color: black;
     font-size: 18px;
-
-}
-
-script {
-    padding: 100px;
 
 }
 
@@ -209,14 +189,6 @@ img {
 .container1 {
     background-color: #007bff;
 }
-
-footer {
-
-}
-
-
-
-
 
 
 body {
@@ -400,6 +372,11 @@ body {
     background-color: green;
 }
 
+
+
+
+
+
 @media screen and (max-width: 100px) {
     .navbar.login-container {
         float: none;
@@ -421,6 +398,26 @@ body {
     margin-left: 100px;
 }
 
+
+/*   responsive media queries:  */
+
+@media screen and (max-width: 1200px) and (min-width: 0) {
+    .myContainer {margin: 0!important;}
+    .container {max-width: 100%;}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 0) {
+
+
+@media screen and (max-width: 768px) and (min-width: 0) {
+
+
+@media screen and (max-width: 575px) and (min-width: 0) {
+}
+
+@media screen and (max-width: 320px) and (min-width: 0) {
+
+};
 
 
 
